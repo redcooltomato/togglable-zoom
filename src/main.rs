@@ -26,7 +26,7 @@ fn get_magfac_key() -> (f32, char) {
 
     let mut magfactor_s = String::new();
     loop {
-        print!("magnification factor (1.0-4096.0):");
+        println!("magnification factor (1.0-4096.0):");
         match std::io::stdin().read_line(&mut magfactor_s) {
             Ok(_) => {
                 match magfactor_s.trim().parse::<f32>() {
@@ -44,7 +44,7 @@ fn get_magfac_key() -> (f32, char) {
 
     let mut key_s = String::new();
     loop {
-        print!("latin character to control the magnifier:");
+        println!("latin character to control the magnifier:");
         match std::io::stdin().read_line(&mut key_s) {
             Ok(_) => {
                 if key_s.trim().len() == 1 {
