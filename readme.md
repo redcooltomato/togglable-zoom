@@ -1,3 +1,3 @@
-configurable screen zoom, potentially, togglebale with a hotkey
+configurable fullscreen screen zoom, togglebale with a hotkey
 
-limited to windows
+sloppily made in one evening
