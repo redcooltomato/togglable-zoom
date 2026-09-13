@@ -1,3 +1,3 @@
 configurable fullscreen screen zoom, togglebale with a hotkey
 
-sloppily made in one evening
+sloppily made in two evening
